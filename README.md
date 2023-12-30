@@ -66,3 +66,111 @@ This formal documentation outlines the structure, components, and resources util
 ---
 
 This document is intended to provide a structured overview of the HTML code. For more detailed insights or modifications, further collaboration or discussion may be required.
+
+
+The provided code is a CSS stylesheet that defines various styles for a website. Here's a structured documentation for the CSS code:
+
+### CSS Documentation:
+
+#### 1. Global Reset:
+- Resetting default styles for all elements.
+  ```css
+  * {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+  }
+  ```
+
+#### 2. Button Styles:
+- Defines the base styles for buttons across the site.
+  ```css
+  button {
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    outline: none;
+  }
+  ```
+
+#### 3. Navigation Styles:
+- Styles for the website navigation.
+  ```css
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    text-transform: capitalize;
+    font-family: "Prompt", sans-serif;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  ```
+
+#### 4. Hero Section:
+- Styles for the main hero section of the website.
+  ```css
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1%;
+    height: 80vh;
+  }
+  ```
+
+#### 5. Statistics Section:
+- Styles for displaying statistics like ratings and reviews.
+  ```css
+  .stats {
+    display: flex;
+    width: 100%;
+    margin: 5em 0 10em 0;
+    align-items: center;
+    justify-content: center;
+  }
+  ```
+
+#### 6. Course Section:
+- Styles for displaying different courses offered.
+  ```css
+  .course-section {
+    margin-top: 3em;
+    margin-bottom: 5em;
+  }
+  ```
+
+#### 7. Certificate Section:
+- Styles for displaying certificates or qualifications.
+  ```css
+  .certificate-section {
+    display: flex;
+    flex-direction: column;
+  }
+  ```
+
+#### 8. Pricing Section:
+- Styles for the pricing details section.
+  ```css
+  .pricing-section {
+    width: 100%;
+    margin-top: 4em;
+    margin-bottom: 1em;
+  }
+  ```
+
+#### 9. Responsive Design:
+- Media queries for responsive design, adjusting styles for screens with a max-width of 800px.
+  ```css
+  @media all and (max-width: 800px) {
+    /* Styles for smaller screens */
+  }
+  ```
+
+### Conclusion:
+The provided CSS code contains styles for various sections of a website. It covers global resets, button styles, navigation styles, hero section, statistics, courses, certificates, pricing, and responsive design. This structured documentation gives an overview of the different styles applied to various components of the website.
