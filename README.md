@@ -2,7 +2,7 @@
 
 ## Document Information:
 - **Document Title:** Beanie Website HTML Structure
-- **Author:** [Your Name]
+- **Author:** Emana Osuwake Edet
 - **Date:** December 30, 2023
 
 ## Table of Contents:
